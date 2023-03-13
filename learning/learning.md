@@ -105,7 +105,7 @@ $ wsl --install -d Ubuntu-22.04
 ```
 ![설치_파워쉘](img/wsl_install_ubuntu_2204.png)
 ![설치](img/installing.png)
-![계정 설정](img/installing2.png)
+![계정 설정](img/setting.png)
 
 ### Ubuntu-22.04 설치 완료 확인
 ![설치 완료1](img/complete.png)
