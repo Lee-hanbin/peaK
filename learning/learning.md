@@ -142,4 +142,30 @@ $ pip install jupyterlab
 $ jupyter-lab
 ```
 ![jupyter1](img/jupyter_1.png)
-![jupyter2](img/jupyter_2.PNG)
+
+
+
+
+## 230315 - sudo 권한 없이 pip 설치하기
+
+- `sudo 권한이 주어지지 않은 상황`에서 pip를 설치해야 할 때 사용할 수 있는 방법 중 하나입니다.
+- pip은 파이썬 패키지 라이브러리를 설치 및 관리하는 시스템입니다.
+
+### wget으로 get-pip.py 파일 설치
+```
+// wget(web get): 웹 서버로부터 파일을 다운로드
+$ wget https //bootstrap.pypa.io/get-pip.py
+```
+![wget](img/wget.png)
+
+### get-pip.py 파일 확인
+```
+$ ls -al
+```
+![get-pip_py](img/get-pip_py.png)
+
+### pip 설치
+```
+$ python3 get-pip.py
+```
+![successfully_pip](img/successfully_pip.png)
