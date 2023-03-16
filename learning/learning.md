@@ -175,4 +175,4 @@ $ python3 get-pip.py
 
 ## 230316 - PySpark Tutorial
 
-![pyspark_tuto.png](img/pyspark_tuto.png.png)
+![pyspark_tuto.png](img/pyspark_tuto.png)
