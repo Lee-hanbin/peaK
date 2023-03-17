@@ -219,7 +219,7 @@ $ export FLASK_APP=hello_flask.py
 $ flask run
 ```
 ![flask_run.png](img/flask_run.png)
-![hello_flask.png](img/hello_flask.png)
+![hello_flask.PNG](img/hello_flask.PNG)
 
 ### 가상 환경 비활성화
 ```
