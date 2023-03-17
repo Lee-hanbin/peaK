@@ -176,3 +176,52 @@ $ python3 get-pip.py
 ## 230316 - PySpark Tutorial
 
 ![pyspark_tuto.png](img/pyspark_tuto.png)
+
+
+
+## 230317 - Flask Tutorial
+
+### 가상 환경을 세팅할 디렉토리 생성 및 이동
+```
+$ mkdir flask && cd flask
+```
+
+### 가상 환경 생성
+```
+$ python3 -m venv venv
+```
+
+### 가상 환경 활성화 및 Flask 설치
+```
+$ source venv/bin/activate
+$ pip install Flask
+```
+![install_flask.png](img/install_flask.png)
+
+### 테스트 파일 작성
+```
+$ vi hello_flask.py
+```
+```python
+from flask import Flask
+
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello_flask():
+    return 'Hello Flask!'
+```
+
+### 환경 변수 적용 및 실행
+```
+$ export FLASK_APP=hello_flask.py
+$ flask run
+```
+![flask_run.png](img/flask_run.png)
+![hello_flask.png](img/hello_flask.png)
+
+### 가상 환경 비활성화
+```
+$ deactivate
+```
