@@ -15,3 +15,11 @@
 ![img_down](img_down.PNG)
 
 ![img_result](img_result.PNG)
+
+![mongo_image](mongo_image.png)
+
+![mongo_container](mongo_container.png)
+
+![mongo_yml](mongo_yml.png)
+
+![mongo](mongo.png)
