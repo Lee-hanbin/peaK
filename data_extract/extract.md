@@ -1,4 +1,4 @@
-## 230320 ~ 230327
+## 230320 ~ 230329
 
 ![code_for_img](code_for_img.PNG)
 
@@ -23,3 +23,5 @@
 ![mongo_yml](mongo_yml.png)
 
 ![mongo](mongo.png)
+
+![schema](schema.png)
